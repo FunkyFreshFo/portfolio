@@ -46,7 +46,28 @@ h3 {
     font-size: 3vw
 }
 
-h4 {font-size: 2vw}
+h4 {
+    font-size: 2vw
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 4vw
+    }
+    
+    h2 {
+        font-size: 3vw;
+        margin: 0px;
+    }
+    
+    h3 {
+        font-size: 2vw
+    }
+    
+    h4 {
+        font-size: 1vw
+    }
+}
 
 body {
     background-color: var(--white);
@@ -97,4 +118,16 @@ body {
     background-size: 15px 2px, 100% 2px;
     /* background: repeating-linear-gradient(90deg,red 0 5px ,#0000 0 10px) top; */
     /* background-size: 100% 2px; */
+}
+
+.footer {
+    background: #333;
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.link-icons {
+    height: 30px;
 }
